@@ -8,11 +8,11 @@ For optimal and easy-to-understand coverage of the topic of SLAM, we will implem
 ## **Install ROS navigation & SLAM packages**
 First, let's prepare your machine with the required ROS packages needed for the navigation stack (http://wiki.ros.org/navigation):
 ```shell
-sudo apt install ros-melodic-navigation
+sudo apt install ros-noetic-navigation
 ```
 And finally the slam_gmapping package, that is already available in its binary version (https://wiki.ros.org/slam_gmapping)
 ```shell
-sudo apt install ros-melodic-slam-gmapping
+sudo apt install ros-noetic-slam-gmapping
 ```
 Open the .bashrc file and verify to source to the proper workspace:
 ```shell
